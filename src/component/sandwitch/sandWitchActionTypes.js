@@ -1,0 +1,3 @@
+const BUY_SANDWITCH = 'BUY_SANDWITCH'
+
+export default BUY_SANDWITCH
