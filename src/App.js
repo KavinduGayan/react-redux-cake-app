@@ -1,5 +1,5 @@
 import './App.css';
-import store from './redux/store'
+import Store from './redux/store'
 import { Provider } from 'react-redux'
 
 import CakeContainer  from "./component/cakeContainer";
@@ -8,7 +8,7 @@ import H1Title from "./component/h1Title";
 
 function App() {
   return (
-    <Provider store={store}>
+    <Provider store={Store}>
       <div className='App'>
         <H1Title title='CAKE SHOP' />
         <CakeContainer />
